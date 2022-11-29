@@ -3,7 +3,7 @@ import React, { ReactElement, useState } from "react";
 import styles from "./Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button/Button";
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from "@mui/icons-material/Close";
 
 // type NavbarProps = {
 //     name: string;
@@ -30,13 +30,13 @@ function Navbar(): ReactElement {
       </div>
       <div className={styles.navItems}>
         <div className={styles.navItem}>Home</div>
-        <div className={styles.navItem}>About</div>
         <div className={styles.navItem}>Skills</div>
+        <div className={styles.navItem}>Projects</div>
         <div className={styles.navItem}>Contact</div>
       </div>
       <div className={styles.menu}>
         <Button onClick={handleClick} color="inherit">
-          {!openNav? <CloseIcon />:<MenuIcon />}
+          {!openNav ? <CloseIcon /> : <MenuIcon />}
         </Button>
       </div>
     </div>
