@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
+import Skills from './Components/Skills/Skills';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<>
             <Navbar />
             <Home />
+            <Skills />
           </>} />
         </Routes>
       </Router>

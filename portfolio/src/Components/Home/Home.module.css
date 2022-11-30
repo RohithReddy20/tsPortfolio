@@ -2,10 +2,12 @@
     color: #fff;
     display: flex;
     min-height: 400px;
-    width: min(100%, 900px);
+    width: min(100%, 1200px);
     padding: 60px 30px;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .content {
@@ -30,7 +32,6 @@
     cursor: pointer;
     color: #fff;
     font-size: 25px;
-    margin: 0 auto;
     border-radius: 5px;
     transition: transform 0.2s linear;
 }

@@ -43,5 +43,9 @@
     justify-content: space-around;
     align-items: center;
     transition: top 0.2s linear;
+  z-index: 0;
+  }
+  .navLogo{
+    z-index: 1;
   }
 }
